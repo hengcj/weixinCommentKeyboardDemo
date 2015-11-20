@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2C74BEB0DBA2CB579F340B /* libPods-weixinCommentKeyboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E8D74283FD3C8B5A397DD2 /* libPods-weixinCommentKeyboardDemo.a */; };
+		E95F10471BFDA28E00DF0EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F10461BFDA28E00DF0EB7 /* main.m */; };
+		E95F104A1BFDA28E00DF0EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F10491BFDA28E00DF0EB7 /* AppDelegate.m */; };
+		E95F104D1BFDA28E00DF0EB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F104C1BFDA28E00DF0EB7 /* ViewController.m */; };
+		E95F10501BFDA28E00DF0EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95F104E1BFDA28E00DF0EB7 /* Main.storyboard */; };
+		E95F10521BFDA28E00DF0EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95F10511BFDA28E00DF0EB7 /* Assets.xcassets */; };
+		E95F10551BFDA28E00DF0EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95F10531BFDA28E00DF0EB7 /* LaunchScreen.storyboard */; };
+		E95F10661BFDD0E400DF0EB7 /* CellBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = E95F10651BFDD0E400DF0EB7 /* CellBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59D56782FF02CAC91AA24911 /* Pods-weixinCommentKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weixinCommentKeyboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-weixinCommentKeyboardDemo/Pods-weixinCommentKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		62E8D74283FD3C8B5A397DD2 /* libPods-weixinCommentKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weixinCommentKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		829D23F419CB4B13C93EF33A /* Pods-weixinCommentKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weixinCommentKeyboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-weixinCommentKeyboardDemo/Pods-weixinCommentKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E95F10421BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weixinCommentKeyboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95F10461BFDA28E00DF0EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95F10481BFDA28E00DF0EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E95F10491BFDA28E00DF0EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E95F104B1BFDA28E00DF0EB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E95F104C1BFDA28E00DF0EB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E95F104F1BFDA28E00DF0EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95F10511BFDA28E00DF0EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E95F10541BFDA28E00DF0EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95F10561BFDA28E00DF0EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95F10641BFDD0E400DF0EB7 /* CellBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellBtn.h; sourceTree = "<group>"; };
+		E95F10651BFDD0E400DF0EB7 /* CellBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E95F103F1BFDA28E00DF0EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE2C74BEB0DBA2CB579F340B /* libPods-weixinCommentKeyboardDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BD31E9CC2E35F5D5B3749A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59D56782FF02CAC91AA24911 /* Pods-weixinCommentKeyboardDemo.debug.xcconfig */,
+				829D23F419CB4B13C93EF33A /* Pods-weixinCommentKeyboardDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		936B1BF2C8DFF1032544CA3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E8D74283FD3C8B5A397DD2 /* libPods-weixinCommentKeyboardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E95F10391BFDA28E00DF0EB7 = {
+			isa = PBXGroup;
+			children = (
+				E95F10441BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo */,
+				E95F10431BFDA28E00DF0EB7 /* Products */,
+				1BD31E9CC2E35F5D5B3749A8 /* Pods */,
+				936B1BF2C8DFF1032544CA3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E95F10431BFDA28E00DF0EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E95F10421BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E95F10441BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E95F10481BFDA28E00DF0EB7 /* AppDelegate.h */,
+				E95F10491BFDA28E00DF0EB7 /* AppDelegate.m */,
+				E95F104B1BFDA28E00DF0EB7 /* ViewController.h */,
+				E95F104C1BFDA28E00DF0EB7 /* ViewController.m */,
+				E95F10641BFDD0E400DF0EB7 /* CellBtn.h */,
+				E95F10651BFDD0E400DF0EB7 /* CellBtn.m */,
+				E95F104E1BFDA28E00DF0EB7 /* Main.storyboard */,
+				E95F10511BFDA28E00DF0EB7 /* Assets.xcassets */,
+				E95F10531BFDA28E00DF0EB7 /* LaunchScreen.storyboard */,
+				E95F10561BFDA28E00DF0EB7 /* Info.plist */,
+				E95F10451BFDA28E00DF0EB7 /* Supporting Files */,
+			);
+			path = weixinCommentKeyboardDemo;
+			sourceTree = "<group>";
+		};
+		E95F10451BFDA28E00DF0EB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95F10461BFDA28E00DF0EB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E95F10411BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95F10591BFDA28E00DF0EB7 /* Build configuration list for PBXNativeTarget "weixinCommentKeyboardDemo" */;
+			buildPhases = (
+				9BA2BE5F060E8B8970B251DC /* Check Pods Manifest.lock */,
+				E95F103E1BFDA28E00DF0EB7 /* Sources */,
+				E95F103F1BFDA28E00DF0EB7 /* Frameworks */,
+				E95F10401BFDA28E00DF0EB7 /* Resources */,
+				310F9DB96A67166C80A04D32 /* Embed Pods Frameworks */,
+				90B861DAC699E72E0F513EBB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weixinCommentKeyboardDemo;
+			productName = weixinCommentKeyboardDemo;
+			productReference = E95F10421BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E95F103A1BFDA28E00DF0EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = sipsd;
+				TargetAttributes = {
+					E95F10411BFDA28E00DF0EB7 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E95F103D1BFDA28E00DF0EB7 /* Build configuration list for PBXProject "weixinCommentKeyboardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E95F10391BFDA28E00DF0EB7;
+			productRefGroup = E95F10431BFDA28E00DF0EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E95F10411BFDA28E00DF0EB7 /* weixinCommentKeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95F10401BFDA28E00DF0EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95F10551BFDA28E00DF0EB7 /* LaunchScreen.storyboard in Resources */,
+				E95F10521BFDA28E00DF0EB7 /* Assets.xcassets in Resources */,
+				E95F10501BFDA28E00DF0EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		310F9DB96A67166C80A04D32 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weixinCommentKeyboardDemo/Pods-weixinCommentKeyboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90B861DAC699E72E0F513EBB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-weixinCommentKeyboardDemo/Pods-weixinCommentKeyboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BA2BE5F060E8B8970B251DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E95F103E1BFDA28E00DF0EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95F10661BFDD0E400DF0EB7 /* CellBtn.m in Sources */,
+				E95F104D1BFDA28E00DF0EB7 /* ViewController.m in Sources */,
+				E95F104A1BFDA28E00DF0EB7 /* AppDelegate.m in Sources */,
+				E95F10471BFDA28E00DF0EB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E95F104E1BFDA28E00DF0EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95F104F1BFDA28E00DF0EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E95F10531BFDA28E00DF0EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95F10541BFDA28E00DF0EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E95F10571BFDA28E00DF0EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E95F10581BFDA28E00DF0EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E95F105A1BFDA28E00DF0EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D56782FF02CAC91AA24911 /* Pods-weixinCommentKeyboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = weixinCommentKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.weixinCommentKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E95F105B1BFDA28E00DF0EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829D23F419CB4B13C93EF33A /* Pods-weixinCommentKeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = weixinCommentKeyboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wf.weixinCommentKeyboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E95F103D1BFDA28E00DF0EB7 /* Build configuration list for PBXProject "weixinCommentKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95F10571BFDA28E00DF0EB7 /* Debug */,
+				E95F10581BFDA28E00DF0EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95F10591BFDA28E00DF0EB7 /* Build configuration list for PBXNativeTarget "weixinCommentKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95F105A1BFDA28E00DF0EB7 /* Debug */,
+				E95F105B1BFDA28E00DF0EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E95F103A1BFDA28E00DF0EB7 /* Project object */;
+}

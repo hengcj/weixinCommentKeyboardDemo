@@ -1,0 +1,10 @@
+PODS:
+  - UIViewController-KeyboardAdditions (1.1)
+
+DEPENDENCIES:
+  - UIViewController-KeyboardAdditions (~> 1.0)
+
+SPEC CHECKSUMS:
+  UIViewController-KeyboardAdditions: 5db782fc55ec1e49a20caf80f8d4217f4032eaee
+
+COCOAPODS: 0.39.0

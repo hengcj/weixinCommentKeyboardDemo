@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		247287694B126F501F7D98687489E15E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		2B8D2E53379EC0C6DD379023DB0568E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		42E76DFBB9C939081EDF0B6FA1B458BE /* Pods-weixinCommentKeyboardDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC405F83839A9978FBC8A41CAE76D3C /* Pods-weixinCommentKeyboardDemo-dummy.m */; };
+		4B49F465BE86374BBE7B57AE641A5E54 /* UIViewController+KeyboardAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D710B8D2597AFF8B9FFED8CA629CC00D /* UIViewController+KeyboardAdditions.m */; };
+		6320964BC828D8619D85734FC1132212 /* UIViewController+KeyboardAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D35F1E6CDEDFC7A18756732CE082045 /* UIViewController+KeyboardAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A903A6876E123F1B7534918941C998F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		C0A057F7A6DFC99344AB3B5F992CCF20 /* UIViewController-KeyboardAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E05385422674B45EF3F1333A2F72F96 /* UIViewController-KeyboardAdditions-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAD40B23C2B36027ED10B34CF6FC52E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035ADAB171EBE67C5B78F8D8C3E21428;
+			remoteInfo = "UIViewController-KeyboardAdditions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0760D38C6E261DE77C772E1B8BF87F74 /* Pods-weixinCommentKeyboardDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weixinCommentKeyboardDemo-frameworks.sh"; sourceTree = "<group>"; };
+		15392C8473BD019944DAF2FDF6BDC9CE /* libPods-weixinCommentKeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-weixinCommentKeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA98E43F3B4563E9D8B3D052DA8A310 /* UIViewController-KeyboardAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController-KeyboardAdditions-prefix.pch"; sourceTree = "<group>"; };
+		1DC405F83839A9978FBC8A41CAE76D3C /* Pods-weixinCommentKeyboardDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weixinCommentKeyboardDemo-dummy.m"; sourceTree = "<group>"; };
+		29366E9B969326FCC363DE10B6B5B2E9 /* UIViewController-KeyboardAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIViewController-KeyboardAdditions.xcconfig"; sourceTree = "<group>"; };
+		2989EA74905686040709D141A32F436A /* libUIViewController-KeyboardAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIViewController-KeyboardAdditions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F72075894B6443FC60A9DAE6D6B59A /* Pods-weixinCommentKeyboardDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weixinCommentKeyboardDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E05385422674B45EF3F1333A2F72F96 /* UIViewController-KeyboardAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-KeyboardAdditions-dummy.m"; sourceTree = "<group>"; };
+		5D9DE7C8C9C2827F157F23C09BF81091 /* Pods-weixinCommentKeyboardDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weixinCommentKeyboardDemo-resources.sh"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		98A2D01565DC3B69A6F5D303E75B4F81 /* Pods-weixinCommentKeyboardDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weixinCommentKeyboardDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D35F1E6CDEDFC7A18756732CE082045 /* UIViewController+KeyboardAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KeyboardAdditions.h"; path = "Pod/Classes/UIViewController+KeyboardAdditions.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC81CC43D286E99B988D11C93E4D378 /* Pods-weixinCommentKeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weixinCommentKeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D710B8D2597AFF8B9FFED8CA629CC00D /* UIViewController+KeyboardAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KeyboardAdditions.m"; path = "Pod/Classes/UIViewController+KeyboardAdditions.m"; sourceTree = "<group>"; };
+		E376FA3F365EDBC5DFEC4430DEADCFEC /* Pods-weixinCommentKeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weixinCommentKeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FE3E4198749A610FE5603FBA5C33328 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A903A6876E123F1B7534918941C998F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F3C8A21186AF074FC0163D407B450AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247287694B126F501F7D98687489E15E /* Foundation.framework in Frameworks */,
+				2B8D2E53379EC0C6DD379023DB0568E5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8DC3A86F375CBA205B846A0D3160FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29366E9B969326FCC363DE10B6B5B2E9 /* UIViewController-KeyboardAdditions.xcconfig */,
+				4E05385422674B45EF3F1333A2F72F96 /* UIViewController-KeyboardAdditions-dummy.m */,
+				1AA98E43F3B4563E9D8B3D052DA8A310 /* UIViewController-KeyboardAdditions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIViewController-KeyboardAdditions";
+			sourceTree = "<group>";
+		};
+		14B4AD8F8D04B373EAAB48AB82962020 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B3144F10FE6EB6F1810902EE463DF3C /* UIViewController-KeyboardAdditions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6441744F9890280EC2FED88ADA41A392 /* Pods-weixinCommentKeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				31F72075894B6443FC60A9DAE6D6B59A /* Pods-weixinCommentKeyboardDemo-acknowledgements.markdown */,
+				98A2D01565DC3B69A6F5D303E75B4F81 /* Pods-weixinCommentKeyboardDemo-acknowledgements.plist */,
+				1DC405F83839A9978FBC8A41CAE76D3C /* Pods-weixinCommentKeyboardDemo-dummy.m */,
+				0760D38C6E261DE77C772E1B8BF87F74 /* Pods-weixinCommentKeyboardDemo-frameworks.sh */,
+				5D9DE7C8C9C2827F157F23C09BF81091 /* Pods-weixinCommentKeyboardDemo-resources.sh */,
+				BBC81CC43D286E99B988D11C93E4D378 /* Pods-weixinCommentKeyboardDemo.debug.xcconfig */,
+				E376FA3F365EDBC5DFEC4430DEADCFEC /* Pods-weixinCommentKeyboardDemo.release.xcconfig */,
+			);
+			name = "Pods-weixinCommentKeyboardDemo";
+			path = "Target Support Files/Pods-weixinCommentKeyboardDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				14B4AD8F8D04B373EAAB48AB82962020 /* Pods */,
+				D865743AE5D85DB76A7DCAB74497CC90 /* Products */,
+				9D4CD92AE053F8C6BC6FF92162B5ABB6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B3144F10FE6EB6F1810902EE463DF3C /* UIViewController-KeyboardAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				9D35F1E6CDEDFC7A18756732CE082045 /* UIViewController+KeyboardAdditions.h */,
+				D710B8D2597AFF8B9FFED8CA629CC00D /* UIViewController+KeyboardAdditions.m */,
+				0B8DC3A86F375CBA205B846A0D3160FF /* Support Files */,
+			);
+			path = "UIViewController-KeyboardAdditions";
+			sourceTree = "<group>";
+		};
+		9D4CD92AE053F8C6BC6FF92162B5ABB6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6441744F9890280EC2FED88ADA41A392 /* Pods-weixinCommentKeyboardDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D865743AE5D85DB76A7DCAB74497CC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15392C8473BD019944DAF2FDF6BDC9CE /* libPods-weixinCommentKeyboardDemo.a */,
+				2989EA74905686040709D141A32F436A /* libUIViewController-KeyboardAdditions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2677BA3EB638A98DA0692150B64EA970 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6320964BC828D8619D85734FC1132212 /* UIViewController+KeyboardAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		035ADAB171EBE67C5B78F8D8C3E21428 /* UIViewController-KeyboardAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5910A015141E88CCB2272A2DA73FB49C /* Build configuration list for PBXNativeTarget "UIViewController-KeyboardAdditions" */;
+			buildPhases = (
+				45088298285253D46A0AD9115013C139 /* Sources */,
+				6F3C8A21186AF074FC0163D407B450AE /* Frameworks */,
+				2677BA3EB638A98DA0692150B64EA970 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIViewController-KeyboardAdditions";
+			productName = "UIViewController-KeyboardAdditions";
+			productReference = 2989EA74905686040709D141A32F436A /* libUIViewController-KeyboardAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48C21BDA0D49F9A817E71D97120E935E /* Pods-weixinCommentKeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44289C4264F7C1D3414492AE0011CB2 /* Build configuration list for PBXNativeTarget "Pods-weixinCommentKeyboardDemo" */;
+			buildPhases = (
+				55D632EF509C14EB2AAA900DBBDF39CE /* Sources */,
+				3FE3E4198749A610FE5603FBA5C33328 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF6FBA7BB70785C29E3ECA3A55D225B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-weixinCommentKeyboardDemo";
+			productName = "Pods-weixinCommentKeyboardDemo";
+			productReference = 15392C8473BD019944DAF2FDF6BDC9CE /* libPods-weixinCommentKeyboardDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D865743AE5D85DB76A7DCAB74497CC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C21BDA0D49F9A817E71D97120E935E /* Pods-weixinCommentKeyboardDemo */,
+				035ADAB171EBE67C5B78F8D8C3E21428 /* UIViewController-KeyboardAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45088298285253D46A0AD9115013C139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B49F465BE86374BBE7B57AE641A5E54 /* UIViewController+KeyboardAdditions.m in Sources */,
+				C0A057F7A6DFC99344AB3B5F992CCF20 /* UIViewController-KeyboardAdditions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D632EF509C14EB2AAA900DBBDF39CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42E76DFBB9C939081EDF0B6FA1B458BE /* Pods-weixinCommentKeyboardDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF6FBA7BB70785C29E3ECA3A55D225B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIViewController-KeyboardAdditions";
+			target = 035ADAB171EBE67C5B78F8D8C3E21428 /* UIViewController-KeyboardAdditions */;
+			targetProxy = BAD40B23C2B36027ED10B34CF6FC52E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12630FDC0E048BA212E41EFD1D63E910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC81CC43D286E99B988D11C93E4D378 /* Pods-weixinCommentKeyboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88718E4494B413EB8BE27FD712174C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29366E9B969326FCC363DE10B6B5B2E9 /* UIViewController-KeyboardAdditions.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewController-KeyboardAdditions/UIViewController-KeyboardAdditions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8FD17F95D95E48FA97CFEC12F5390437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E376FA3F365EDBC5DFEC4430DEADCFEC /* Pods-weixinCommentKeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9CE4C7F385A655462CABC8B775A1C06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29366E9B969326FCC363DE10B6B5B2E9 /* UIViewController-KeyboardAdditions.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewController-KeyboardAdditions/UIViewController-KeyboardAdditions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5910A015141E88CCB2272A2DA73FB49C /* Build configuration list for PBXNativeTarget "UIViewController-KeyboardAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CE4C7F385A655462CABC8B775A1C06B /* Debug */,
+				88718E4494B413EB8BE27FD712174C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44289C4264F7C1D3414492AE0011CB2 /* Build configuration list for PBXNativeTarget "Pods-weixinCommentKeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12630FDC0E048BA212E41EFD1D63E910 /* Debug */,
+				8FD17F95D95E48FA97CFEC12F5390437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
